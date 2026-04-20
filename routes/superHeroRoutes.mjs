@@ -13,4 +13,6 @@ router.get('/heroes/:id', obtenerSuperheroePorIdController);
 router.get('/heroes/buscar/:atributo/:valor', buscarSuperheroesPorAtributoController);
 router.get('/mayores-30', obtenerSuperHeroesMayoresDe30Controller);
 
+//prueba
+
 export default router;
